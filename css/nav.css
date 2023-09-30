@@ -1,0 +1,40 @@
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  width: 100vw;
+  height: min-content;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--soft-black);
+  width: 100vw;
+  height: min-content;
+}
+
+li {
+  margin-left: 1rem;
+  margin-right:1rem;
+  color: hsl(44, 79%, 96%);
+  font-size: 1rem;
+}
+a{
+  color: var(--off-white);
+  font-family: 'Cabin' , sans-serif;
+}
+
+/* nav a:hover{
+  color: var(--candy-blue);
+} */
+
+.navlogo {
+  fill: white;
+  stroke: white;
+  width:2rem;
+  align-self: center;
+  justify-self:flex-end;
+  margin-left: 1rem;
+}
