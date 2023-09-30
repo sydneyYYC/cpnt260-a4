@@ -37,4 +37,5 @@ a{
   align-self: center;
   justify-self:flex-end;
   margin-left: 1rem;
+  flex: none;
 }
