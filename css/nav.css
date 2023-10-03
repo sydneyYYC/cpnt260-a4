@@ -17,7 +17,7 @@ nav{
 
 li {
   margin-left: 1rem;
-  margin-right:1rem;
+  margin-right:1.5rem;
   color: hsl(44, 79%, 96%);
   font-size: 1rem;
 }
@@ -30,6 +30,7 @@ a{
   color: var(--candy-blue);
 } */
 
+/* the icon in nav bar */
 .navlogo {
   fill: white;
   stroke: white;
