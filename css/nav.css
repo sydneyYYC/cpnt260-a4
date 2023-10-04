@@ -1,3 +1,4 @@
+
 nav ul{
   display: flex;
   flex-direction: row;
@@ -10,25 +11,31 @@ nav ul{
 nav{
   display: flex;
   justify-content: space-between;
+
   background-color: var(--soft-black);
+
   width: 100%;
   height: min-content;
+  padding-top: 0.5rem;
 }
 
 li {
   margin-left: 1rem;
   margin-right:1.5rem;
+
   color: hsl(44, 79%, 96%);
   font-size: 1rem;
 }
+
 .nav-a{
   color: var(--off-white);
   font-family: 'Cabin' , sans-serif;
 }
 
-/* nav a:hover{
+/* for current menu nav */
+.current-page {
   color: var(--candy-blue);
-} */
+}
 
 /* the icon in nav bar */
 .navlogo {
@@ -39,4 +46,40 @@ li {
   justify-self:flex-end;
   margin-left: 1rem;
   flex: none;
+}
+
+input, label {
+  display: none;
+}
+
+
+/* for hamburger menu */
+@media screen and  (max-width: 600px) {
+
+  input {
+    display: none;
+  }
+  
+  nav ul {
+    display: none;
+  }
+
+  /* norepeat for background image not working */
+  label {
+    display: block;
+
+    width: 30px;
+    height: 28px;
+    padding-left: 2rem;
+
+    color: var(--soft-black);
+    background-image: url(../assets/x-icon.svg); 
+  }
+  
+  input:checked + ul {
+    display: block;
+    width: min-content;
+    margin-top: 1rem;
+  }
+  
 }

@@ -15,15 +15,19 @@ footer {
   display: flex;
   flex-direction: column;
   justify-items: space-around;
-  width: 100%;
-  text-align: center;
-  background-color: hsl(351, 2%, 80%);
+
   align-self: flex-end;
+  text-align: center;
+
+  width: 100%;
+  background-color: hsl(351, 2%, 80%);
 }
+
  /* reduce space between copy and links */
 .footer-ul {
   margin-top: 0;
 }
+
 .footer-link {
   color: var(--soft-black);
   margin-top: 0;
@@ -34,7 +38,7 @@ footer {
   margin-left: 2rem;
 }
 
-
+/* for mobile */
 @media screen and (width < 600px) {
   footer {
     flex-direction: row;
