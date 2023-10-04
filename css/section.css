@@ -1,0 +1,34 @@
+
+.projects {
+  display: flex;
+  width: fit-content;
+  margin: 4rem 2rem;
+  height: 2fr;
+  border: 2px hsl(351, 8%, 18%) solid;
+  }
+
+ .projects-img {
+  display:block;
+  width: 100%;
+  height: 20rem;
+  /* im having trouble using justify-self on this element to center it and im not sure why - this was my solution */
+  align-content: center;
+  }
+
+  .projects-label{
+  display: flex;
+  justify-content: flex-start;
+  
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  max-width: 35ch;
+  min-width: 15ch;
+
+  color: var(--soft-black);
+  font-size:larger;
+  }
+
+  a:hover {
+    box-shadow: 0 4px 8px 0 hsl(29, 100%, 50%, 0.2), 0 6px 20px 0 hsl(29, 100%, 50%, 0.2);
+  }
