@@ -11,7 +11,7 @@ nav{
   display: flex;
   justify-content: space-between;
   background-color: var(--soft-black);
-  width: 100vw;
+  width: 100%;
   height: min-content;
 }
 
@@ -21,7 +21,7 @@ li {
   color: hsl(44, 79%, 96%);
   font-size: 1rem;
 }
-a{
+.nav-a{
   color: var(--off-white);
   font-family: 'Cabin' , sans-serif;
 }
